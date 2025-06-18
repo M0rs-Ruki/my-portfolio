@@ -1,36 +1,53 @@
 
 
-# 🚀 My Learning Projects
+# 🧑‍💻 My Developer Portfolio
 
-This repository contains the core projects I've built as part of my journey into backend development and AI/ML. I'm learning by doing — documenting everything and building projects from scratch using JavaScript, Node.js, Python, and other modern tools.
+Welcome to my personal portfolio website!  
+This site showcases who I am, the projects I've built, and my ongoing journey in backend development and AI/ML.
 
-## 🔧 Projects Included
+## 🌐 Live Site
 
-### 📺 YouTube Backend API
-A simulated backend for a YouTube-style platform built with Node.js, Express, and MongoDB. Features user authentication, video upload routes, likes, comments, and view tracking.
-
-### ✅ Task Manager + Note App
-A RESTful backend for managing tasks and notes. Includes user registration, login, CRUD operations, and token-based authentication using JWT.
-
-### 🧠 Neural Network from Scratch
-A neural network built entirely with Python and NumPy — no external ML libraries used. Manually implemented forward propagation, activation functions, and backpropagation to train on basic datasets.
-
-## 🛠 Tech Stack
-
-- **JavaScript**, **Node.js**, **Express.js**
-- **MongoDB**, **Mongoose**
-- **Python**, **NumPy**
-- **REST API**, **JWT Authentication**
-
-## 🎯 Purpose
-
-These projects are part of my personal learning journey to understand real-world backend systems and foundational machine learning. I also document this journey through [my YouTube channel](#) (insert your link if available).
+🔗 [Visit My Portfolio](https://your-username.github.io/)  
+*(Replace this link with your actual GitHub Pages or custom domain)*
 
 ---
 
-## 📬 Contact
+## 📂 What You'll Find
 
-If you're interested in collaborating, mentoring, or just saying hi, feel free to reach out via [LinkedIn](#) or [GitHub](#).
+- ✍️ **About Me** – A quick intro to my learning journey and goals
+- 💻 **Projects Section** – Includes:
+  - YouTube Backend API
+  - Task Manager + Note App
+  - Neural Network from Scratch
+- 📽️ **YouTube Content** – Documenting my learning in public
+- 📫 **Contact Section** – For collaboration, freelance, or just a hello
+
+---
+
+## 🔧 Technologies Used
+
+- **HTML**, **CSS**, **JavaScript**
+- Hosted with **GitHub Pages** or deployed via **Netlify/Vercel**
+
+---
+
+## 🙋‍♂️ About Me
+
+I'm a self-taught developer currently learning **backend development** with **JavaScript** and exploring the fundamentals of **AI/ML**.  
+Through this site and my YouTube channel, I document what I build, learn, and discover.
+
+---
+
+## 📬 Let's Connect
+
+- 📺 [YouTube](https://www.youtube.com/@morscode7)
+- 💼 [LinkedIn](https://www.linkedin.com/in/anup-pradhan77)
+- 🧑‍💻 [GitHub](https://github.com/M0rs-Ruki)
+
+---
+
+> Thanks for visiting my portfolio. Feel free to check out the code, leave a star ⭐, or drop a message!
+
 
 
 I didn't build it as I modify it  This website is actually from (https://github.com/codewithsadee/vcard-personal-portfolio)
