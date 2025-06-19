@@ -2030,7 +2030,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 }
 
 .popup-content {
-    background: linear-gradient(145deg, #252540, #1e1e36);
+    background: linear-gradient(145deg, #1e1e1f, #1e1e1f);
     border-radius: 20px;
     box-shadow: 0 20px 50px rgba(0, 0, 0, 0.6);
     width: 90%;
