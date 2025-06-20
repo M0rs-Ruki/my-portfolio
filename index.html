@@ -20,6 +20,11 @@
   <!--
     - google font link
   -->
+<!-- Add this inside <head> -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+  />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
@@ -302,7 +307,7 @@
           <h2 class="h2 article-title">Resume</h2>
         </header>
 
-        <button id="downloadBtn" class="download-btn">
+        <button id="downloadBtn" class="download-btn , parent-container">
             <i class="fas fa-download"></i>
             <span>Download Resume</span>
         </button>
@@ -325,60 +330,108 @@
             </div>
         </div>
 
-        <section class="skill">
-          <h3 class="h3 skills-title">My Skills</h3>
-          <ul class="skills-list content-card">
-            <li class="skills-item">
-              <div class="title-wrapper">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" width="30">
-                <h5 class="h5">JavaScript</h5>
-              </div>
-            </li>
-            <li class="skills-item">
-              <div class="title-wrapper">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js" width="30">
-                <h5 class="h5">Node.js</h5>
-              </div>
-            </li>
-            <li class="skills-item">
-              <div class="title-wrapper">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" alt="Express.js" width="30">
-                <h5 class="h5">Express.js</h5>
-              </div>
-            </li>
-            <li class="skills-item">
-              <div class="title-wrapper">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB" width="30">
-                <h5 class="h5">MongoDB</h5>
-              </div>
-            </li>
-            <li class="skills-item">
-              <div class="title-wrapper">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" width="30">
-                <h5 class="h5">Python</h5>
-              </div>
-            </li>
-            <li class="skills-item">
-              <div class="title-wrapper">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" alt="Tensorflow" width="30">
-                <h5 class="h5">Tensorflow</h5>
-              </div>
-            </li>
-
-            <li class="skills-item">
-              <div class="title-wrapper">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg"
-                    alt="C++" 
-                    width="30">
-                <h5 class="h5">C++</h5>
-              </div>
-            </li>
-          </ul>
+        <section class="skills">
+            <h2 class="skills-title"> My Skills </h2>
+            
+            <div class="skills-categories">
+                <!-- Languages Category -->
+                <div class="category-card">
+                    <h3 class="category-title"><i class="fas fa-code"></i> Languages</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" 
+                                     alt="JavaScript">
+                            </div>
+                            <span class="skill-name">JavaScript</span>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" 
+                                     alt="Python">
+                            </div>
+                            <span class="skill-name">Python</span>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg"
+                                     alt="C++">
+                            </div>
+                            <span class="skill-name">C++</span>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+                <!-- Frameworks & Libraries Category -->
+                <div class="category-card">
+                    <h3 class="category-title"><i class="fas fa-cubes"></i> Frameworks & Libraries</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" 
+                                     alt="Node.js">
+                            </div>
+                            <span class="skill-name">Node.js</span>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" 
+                                     alt="Express.js">
+                            </div>
+                            <span class="skill-name" >Express.js</span>
+                        </div>
+                        
+                        
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" 
+                                     alt="TensorFlow">
+                            </div>
+                            <span class="skill-name">TensorFlow</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Databases & Tools Category -->
+                <div class="category-card">
+                    <h3 class="category-title"><i class="fas fa-database"></i> Databases & Tools</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" 
+                                     alt="MongoDB">
+                            </div>
+                            <span class="skill-name">MongoDB</span>
+                        </div>
+                        
+                        
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" 
+                                     alt="Git">
+                            </div>
+                            <span class="skill-name">Git</span>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" 
+                                     alt="Docker">
+                            </div>
+                            <span class="skill-name">Docker</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
         
-        <section class="skills">
+        <!-- <section class="skills">
           <div class="spacer" style="height: 40px;"></div> 
-        </section>
+        </section> -->
 
         <section class="timeline">
 
@@ -665,28 +718,33 @@
             <h3 class="h3">Connect With Me</h3>
             <ul class="social-list">
               <li class="social-item">
-                <a href="https://www.youtube.com/@morscode7" class="social-link">
+                <a href="https://www.youtube.com/@morscode7" class="social-link" target="_blank" rel="noopener noreferrer">
                   <ion-icon name="logo-youtube"></ion-icon> YouTube
                 </a>
               </li>
               <li class="social-item">
-                <a href="https://x.com/AnupPradhan0" class="social-link">
-                  <ion-icon name="logo-twitter"></ion-icon> Twitter/X
+                <a href="https://x.com/AnupPradhan0" class="social-link" target="_blank" rel="noopener noreferrer">
+                  <ion-icon name="logo-twitter"></ion-icon> Twitte/X
                 </a>
               </li>
               <li class="social-item">
-                <a href="https://www.instagram.com/mors_code__" class="social-link">
+                <a href="https://www.instagram.com/mors_code__" class="social-link" target="_blank" rel="noopener noreferrer">
                   <ion-icon name="logo-instagram"></ion-icon> Instagram
                 </a>
               </li>
               <li class="social-item">
-                <a href="https://www.linkedin.com/in/anup-pradhan77" class="social-link">
+                <a href="https://www.linkedin.com/in/anup-pradhan77" class="social-link" target="_blank" rel="noopener noreferrer">
                   <ion-icon name="logo-linkedin"></ion-icon> LinkedIn
                 </a>
               </li>
               <li class="social-item">
-                <a href="https://github.com/M0rs-Ruki" class="social-link">
+                <a href="https://github.com/M0rs-Ruki" class="social-link" target="_blank" rel="noopener noreferrer">
                   <ion-icon name="logo-github"></ion-icon> GitHub
+                </a>
+              </li>
+              <li class="social-item">
+                <a href="https://leetcode.com/u/Anuppradhan/" class="social-link" target="_blank" rel="noopener noreferrer">
+                  <ion-icon name="code-slash-outline"></ion-icon> LeetCode
                 </a>
               </li>
             </ul>
