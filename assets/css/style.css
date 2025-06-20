@@ -2242,35 +2242,14 @@ textarea.form-input::-webkit-resizer { display: none; }
     text-decoration: underline;
 }
 
-.button-wrapper {
-  display: none; /* Hidden by default */
+.parent-container {
+  display: flex;
   justify-content: center;
   align-items: center;
-  padding: 2rem 0; /* Add spacing if needed */
 }
-
-/* Show and center on laptop/desktop only */
-@media screen and (min-width: 768px) {
-  .button-wrapper {
-    display: flex;
-  }
-}
+  
 
 
-/* Hide by default */
-.mobile-only {
-  display: none;
-  justify-content: center;
-  align-items: center;
-  padding: 1rem 0;
-}
-
-/* Show only on mobile screens (less than 768px) */
-@media screen and (max-width: 767px) {
-  .mobile-only {
-    display: flex;
-  }
-}
 
 
 
