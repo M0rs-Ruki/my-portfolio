@@ -7,7 +7,7 @@ This site showcases who I am, the projects I've built, and my ongoing journey in
 
 ## 🌐 Live Site
 
-🔗 [Visit My Portfolio](https://your-username.github.io/)  
+🔗 [Visit My Portfolio](https://m0rs-ruki.github.io/my-portfolio/)  
 *(Replace this link with your actual GitHub Pages or custom domain)*
 
 ---

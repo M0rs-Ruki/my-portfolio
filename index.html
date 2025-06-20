@@ -78,22 +78,9 @@
 
             <div class="contact-info">
               <p class="contact-title">Email</p>
-
-              <a href="mailto:anuppradhan929@gmail.com" class="contact-link">anuppradhan929@gmail.com</a>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="calendar-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Birthday</p>
-
-              <time datetime="1982-06-23"> 15th Sep 2005 </time>
+              <a href="mailto:anuppradhan929@gmail.com" class="contact-link">
+                anuppradhan929@gmail.com
+              </a>
             </div>
 
           </li>
@@ -111,7 +98,14 @@
             </div>
 
           </li>
-
+          
+          <div class="mobile-only">
+            <button id="mobileBtn" class="download-btn">
+              <i class="fas fa-download"></i>
+              <span>Download Resume</span>
+            </button>
+          </div>
+          
         </ul>
 
         <div class="separator"></div>
@@ -307,10 +301,12 @@
           <h2 class="h2 article-title">Resume</h2>
         </header>
 
-        <button id="downloadBtn" class="download-btn , parent-container">
+        <div class="button-wrapper laptop-only">
+          <button id="downloadBtn" class="download-btn">
             <i class="fas fa-download"></i>
             <span>Download Resume</span>
-        </button>
+          </button>
+        </div>
 
         <!-- Popup Container -->
         <div class="popup-overlay" id="resumePopup">
@@ -703,15 +699,19 @@
               </div>
             </div>
             
-            <div class="contact-item">
+            <li class="contact-item">
+
               <div class="icon-box">
-                <ion-icon name="phone-portrait-outline"></ion-icon>
+                <ion-icon name="location-outline"></ion-icon>
               </div>
+
               <div class="contact-info">
-                <p class="contact-title">Phone</p>
-                <a href="tel:+12133522795" class="contact-link">+1 (213) 352-2795</a>
+                <p class="contact-title">Location</p>
+
+                <address> India Odisha Bhubaneswar </address>
               </div>
-            </div>
+
+            </li>
           </div>
           
           <div class="social-links-card">
